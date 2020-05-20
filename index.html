@@ -15,16 +15,31 @@
       <p id="description"> Par </p>
       <form id = "survey-form">
         <label for="name" id="name-label"> Input your name </label>
-          <input type="text" name="name" id="name" value="" required placeholder="Name">
-        
+          <input type="text" name="name" id="name" value="" required placeholder="Name"><br>
            <label for="email" id="email-label" >PLease type your mail</label>
-          <input type="email" name="email" id="email" value="" required placeholder="Email">
+          <input type="email" name="email" id="email" value="" required placeholder="Email"><br>
           <label for="number" id="number-label">Please type a number between 1 and 10</label>
-          <input type="number" name="number" id="number" value="" min="1" max="10" placeholder="Number">
+          <input type="number" name="number" id="number" value="" min="1" max="10" placeholder="Number"><br>
          <select id="dropdown">
            <option>opt1</option>
            <option>opt2</option>
          </select>
+         <br>
+         <div class="" id="radio-group">
+           <label for="male">Male</label>
+           <input type="radio" name="gender" value="male" id="male">
+           <label for="female">Female</label>
+           <input type="radio" name="gender" value="female" id="female">
+         </div>
+         <div class="" id="checkboxes">
+           <p>How are you feeling?</p>
+           <label for="sleepy">Sleepy</label>
+           <input type="checkbox" name="sleepy" value="sleepy" id="sleepy">
+           <label for="hungry">Hungry</label>
+           <input type="checkbox" name="hungry" value="hungry" id="hungry">
+           <label for="lucky">Lucky</label>
+           <input type="checkbox" name="lucky" value="lucky" id="lucky">
+         </div>
           <button type="submit" name="button">Submit</button>
       </form>
 
